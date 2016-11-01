@@ -24,11 +24,8 @@
 
 		<h1> Sign Up </h1>
 
-		<nav>
-	    	<ul>
-	      		<li> <a class="left" href="index.html">Main Page</a> </li>
-	    	</ul>
-	 	</nav>
+    <?php include '../resources/simple_navigation.php'; ?>
+
 	 	<div class="container">
 	 	     <div class= "jumbotron">
 	 	     <form>
@@ -79,7 +76,8 @@
 
 	    <br>
 
-	     <footer> &copy; Copyright 2016, iSports News</footer>
+    <?php include '../resources/footer.php'; ?>
+    
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
